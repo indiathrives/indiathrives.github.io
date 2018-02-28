@@ -63,6 +63,56 @@
 		// Scrolly links.
 			$('.scrolly').scrolly();
 
+	 // Donut chart dougnut
+			var ctx1 = document.getElementById('donut1').getContext('2d');
+		  var myDoughnutChart = new Chart(ctx1, {
+		      type: 'doughnut',
+		      data: {
+		        labels: ['One', 'Two', 'Three'],
+		        datasets: [{
+		          data: [20, 30, 50],
+		          backgroundColor: ["red", "green", "blue"]
+		        }],
+		      },
+					options: {
+						legend: {
+							display: false
+						},
+					}
+		  });
+			var ctx2 = document.getElementById('donut2').getContext('2d');
+		  var myDoughnutChart = new Chart(ctx2, {
+		      type: 'doughnut',
+		      data: {
+		        labels: ['One', 'Two', 'Three'],
+		        datasets: [{
+		          data: [20, 30, 50],
+		          backgroundColor: ["red", "green", "blue"]
+		        }],
+		      },
+					options: {
+						legend: {
+							display: false
+						},
+					}
+		  });
+			var ctx3 = document.getElementById('donut3').getContext('2d');
+		  var myDoughnutChart = new Chart(ctx3, {
+		      type: 'doughnut',
+		      data: {
+		        labels: ['One', 'Two', 'Three'],
+		        datasets: [{
+		          data: [20, 30, 50],
+		          backgroundColor: ["red", "green", "blue"]
+		        }],
+		      },
+					options: {
+						legend: {
+							display: false
+						},
+					}
+		  });
+
 		// Off-Canvas Navigation.
 
 			// Navigation Button.
