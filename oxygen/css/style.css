@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
@@ -98,8 +98,10 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   width: 100%;
-  padding: 40px 0;
+  padding: 20px 0 20px 0;
   z-index: 1001;
+  background: mediumaquamarine;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2);
 }
 @media screen and (max-width: 768px) {
   .gtco-nav {
