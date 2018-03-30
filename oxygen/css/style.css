@@ -100,7 +100,15 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   padding: 20px 0 20px 0;
   z-index: 1001;
-  background: mediumaquamarine;
+  background: #4cc1bd;
+  background: -moz-linear-gradient(-45deg, #4cc1bd 0%, #3f95ea 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #4cc1bd), color-stop(100%, #3f95ea));
+  background: -webkit-linear-gradient(-45deg, #4cc1bd 0%, #3f95ea 100%);
+  background: -o-linear-gradient(-45deg, #4cc1bd 0%, #3f95ea 100%);
+  background: -ms-linear-gradient(-45deg, #4cc1bd 0%, #3f95ea 100%);
+  background: linear-gradient(135deg, #4cc1bd 0%, #3f95ea 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4cc1bd', endColorstr='#3f95ea', GradientType=1 );
+
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2);
 }
 @media screen and (max-width: 768px) {
@@ -334,7 +342,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .gtco-cover .display-t,
 .gtco-cover .display-tc {
-  height: 900px;
+  height: 800px;
   display: table;
   width: 100%;
 }
@@ -577,6 +585,10 @@ form label {
   display: block;
   text-align: center;
   margin-left: 3px;
+}
+
+#gtco-features-2 .donut {
+  margin-top: 50px;
 }
 
 #gtco-features,
@@ -1021,12 +1033,12 @@ bs-wizard {
 }
 .gtco-tabs .gtco-tab-nav li.active a {
   background: #fff;
-  color: #52d3aa;
+  color: #3f95ea;
 }
 .gtco-tabs .gtco-tab-content-wrap {
   clear: both;
   position: relative;
-  top: 70px;
+  top: 40px;
 }
 .gtco-tabs .gtco-tab-content-wrap .tab-content {
   position: absolute;
@@ -1041,22 +1053,22 @@ bs-wizard {
   visibility: visible;
 }
 .gtco-tabs .icon-xlg {
-  font-size: 400px;
+  font-size: 300px;
   margin-bottom: 30px;
   text-align: center;
 }
 @media screen and (max-width: 768px) {
   .gtco-tabs .icon-xlg {
-    font-size: 300px;
+    font-size: 200px;
   }
 }
 @media screen and (max-width: 480px) {
   .gtco-tabs .icon-xlg {
-    font-size: 200px;
+    font-size: 100px;
   }
 }
 .gtco-tabs .icon-xlg i {
-  color: #52d3aa;
+  color: #3f95ea;
 }
 
 #gtco-started {
@@ -1110,6 +1122,9 @@ bs-wizard {
   padding-left: 50px;
   padding-right: 50px;
 }
+#gtco-started a {
+}
+
 #gtco-started .form-inline .form-group {
   width: 100% !important;
   margin-bottom: 10px;
