@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-cover {
-  height: 900px;
+  height: 800px;
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -504,20 +504,20 @@ form label {
 #gtco-counter .display-tc h1,
 .gtco-cover .display-tc h1 {
   margin-bottom: 0px;
-  font-size: 70px;
+  font-size: 45px;
   line-height: 1.5;
 }
 @media screen and (max-width: 768px) {
   #gtco-header .display-tc h1,
   #gtco-counter .display-tc h1,
   .gtco-cover .display-tc h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 #gtco-header .display-tc h2,
 #gtco-counter .display-tc h2,
 .gtco-cover .display-tc h2 {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   margin-bottom: 30px;
 }
@@ -995,7 +995,7 @@ bs-wizard {
   float: left;
   margin: 0;
   padding: 0;
-  width: 25%;
+  width: 50%;
   text-align: center;
   list-style: none;
   display: -moz-inline-stack;
